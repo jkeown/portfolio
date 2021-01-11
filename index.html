@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>J. Keown Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#"> JK </a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">Hello, I am <strong>Jared Keown</strong></h1>
+      <p class="section__subtitle section__subtitle--intro">front-end developer</p>
+      <img src="img/laptopAnimation-min.svg" alt="Jared working" class="intro__img" />
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design + Development</h3>
+          <p>
+            I love creating with code. I aim to develop apps focusing on speed, accessibility, and security. I tend to
+            favor simple, elegant visual designs.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>E-Commerce</h3>
+          <p>
+            In this day and age, e-commerce is a necessity. I currently utilize Gatsby, Contentful, and Snipcart for
+            online web store applications.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Customizations</h3>
+          <p>
+            Each project presents an opportunity to incorporate specific features. I welcome the challenge to deliver a
+            unique product and experience. Sometimes a smaller tweak is all that is desired ranging from logos,
+            animations, and more ...
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services -->
+
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">Developer based out of Wilmington, NC</p>
+
+      <div class="about-me__body">
+        <p>
+          I've always had an interest in technology. My first computer class in 6th grade. Explored linux distros in
+          high school. A networking course after graduating. I found my true interest in the coding side of computers
+          after a C++ course in college. Next I started cutting my teeth on Python then continued honing my craft in web
+          development.
+        </p>
+        <p>
+          I've had exposure to several coding languages, libraries, and frameworks on my journey. Truth be told, I
+          actually enjoy using the good ol' vanilla flavors of the trifecta - HTML, CSS, and JS. That being said, I do
+          understand the benefits of coding with frameworks and other syntactically sweetened abstractions. I have an
+          open mind and am ready to dive into my employer's stack of choice.
+        </p>
+      </div>
+
+      <img src="img/profile-removebg.png" alt="Jared doing something" class="about-me__img" />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="fh.html" class="portfolio__item">
+          <img src="img/fh.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a href="et.html" class="portfolio__item">
+          <img src="img/event-timer.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 03 -->
+        <a href="djr8.html" class="portfolio__item">
+          <img src="img/djr8.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 04 -->
+        <a href="sng.html" class="portfolio__item">
+          <img src="img/shine-n-go.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 05 -->
+        <a href="chuck.html" class="portfolio__item">
+          <img src="img/chuck.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 06 -->
+        <a href="bba.html" class="portfolio__item">
+          <img src="img/bba.png" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 07 -->
+        <a href="bh.html" class="portfolio__item">
+          <img src="img/bread-honey.png" alt="" class="portfolio__img" />
+        </a>
+        <!-- Portfolio item 08 -->
+        <a href="nff.html" class="portfolio__item">
+          <img src="img/nff.png" alt="" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Feel free to contact me regarding employment or to say Hi!</p>
+      <p>If you would like to see my archives or enjoy CSS Art use the links below.</p>
+      <p>Cheers!</p>
+      <a href="mailto:jkeownwebdev@gmail.com" class="footer__link">jkeownwebdev@gmail.com</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://codepen.io/jkeown">
+            <i class="fab fa-codepen"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/jkeown">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
