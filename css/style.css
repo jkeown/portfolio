@@ -76,7 +76,7 @@ strong {
   color: var(--clr-dark);
   text-decoration: none;
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: var(--fw-bold);
@@ -295,8 +295,11 @@ header {
 
 .intro {
   position: relative;
+  padding-top: 150px;
 }
-
+.intro__img {
+  width: 50vw;
+}
 .section__subtitle--intro {
   display: inline-block;
 }
@@ -319,7 +322,9 @@ header {
     position: relative;
     z-index: 2;
   }
-
+  .section__title--intro {
+    width: 50vw;
+  }
   .section__subtitle--intro {
     align-self: start;
     grid-column: -1 / 1;
@@ -327,7 +332,7 @@ header {
     text-align: right;
     position: relative;
     left: -1.5em;
-    width: calc(100% + 1.5em);
+    width: 90vw;
   }
 }
 
@@ -389,8 +394,8 @@ header {
 }
 
 .about-me__img {
-  /* box-shadow: var(--bs); */
-  border-radius: 20px;
+  width: 50vw;
+  border-radius: 999px;
 }
 
 @media (min-width: 600px) {
