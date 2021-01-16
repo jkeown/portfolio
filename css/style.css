@@ -295,7 +295,6 @@ header {
 
 .intro {
   position: relative;
-  padding-top: 150px;
 }
 .intro__img {
   width: 50vw;
@@ -314,6 +313,7 @@ header {
       "img title"
       "img subtitle";
     grid-template-columns: min-content max-content;
+    padding-top: 150px;
   }
 
   .intro__img {
